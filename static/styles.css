@@ -1,0 +1,130 @@
+body {
+    background: url("./image/background.jpg") center no-repeat;
+    -webkit-background-size: absolute;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.header-content {
+    position: absolute;
+    width: 100%;
+    background: #000;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 29px rgba(0, 0, 0, 0.5);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 18px;
+}
+
+.haeder__support {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+
+    transition: color .2s linear;
+}
+.haeder__support:hover {
+    color: #ccc;
+}
+
+.info__title {
+    margin: 15px 0;
+    font-size: 80px;
+    overflow: hidden;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.info_about {
+    margin-top: 60px;
+    line-height: 42px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.7;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.info-content {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    margin: 140px;
+}
+
+.info_button {
+    text-decoration: none;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+    margin: 180px;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+
+    background: #000;
+    color: #fff;
+
+    padding: 20px 45px 20px 45px;
+    font-size: 48px;
+
+    transition: color .2s linear;
+}
+
+.info_button:hover {
+    color: #ccc;
+}
+
+.foot-text {
+    margin: 0 40px;
+    font-size: 20px;
+}
+
+.footer {
+    border: 1px solid #000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 29px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    background-color: #000;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    color: #fff;
+    line-height: 42px;
+}
+
+
+.conf-button {
+    text-decoration: none;
+    color: #fff;
+
+    
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    
+    transition: color .2s linear;
+}
+
+.conf-button:hover {
+    color: #ccc;
+}
